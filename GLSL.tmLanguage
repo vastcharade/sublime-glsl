@@ -95,6 +95,22 @@
 			<key>include</key>
 			<string>source.c</string>
 		</dict>
+		<dict>
+			<key>begin</key>
+			<string>//</string>
+			<key>end</key>
+			<string>$</string>
+			<key>name</key>
+			<string>comment.line.double-slash.glsl</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>/\*</string>
+			<key>end</key>
+			<string>\*/</string>
+			<key>name</key>
+			<string>comment.line.multline.glsl</string>
+		</dict>
 	</array>
 	<key>scopeName</key>
 	<string>source.glsl</string>
